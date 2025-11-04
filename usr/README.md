@@ -1,6 +1,6 @@
-# couldai_user_app
+# Ehsan AI
 
-A new Flutter project.
+An AI app named Ehsan AI.
 
 ## Getting Started
 
