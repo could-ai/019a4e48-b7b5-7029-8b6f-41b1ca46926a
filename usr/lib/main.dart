@@ -24,7 +24,11 @@ class EhsanAiApp extends StatelessWidget {
           brightness: Brightness.dark,
         ),
       ),
-      home: const ChatScreen(),
+      // Adding a default route handler for '/' to fix web preview issues.
+      routes: {
+        '/': (context) => const ChatScreen(),
+      },
+      initialRoute: '/',
     );
   }
 }
